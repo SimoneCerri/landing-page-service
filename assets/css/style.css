@@ -1,0 +1,108 @@
+/*
+###############
+- Debug
+- Common
+- Utilities
+- MediaQuery
+- Header
+- Main
+- Footer
+###############
+*/
+
+
+/* #region Debug */
+
+.debug h1 {
+    background-color: var(--primary);
+}
+
+div {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+/* #endregion Debug */
+
+
+/* #region Common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+    --primary: #EC6C5B;
+    --secondary: #4CC083;
+    --light: #E2F3F0;
+}
+
+/* #endregion Common */
+
+
+/* #region Utilities */
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* #endregion Utilities */
+
+
+/* #region MediaQuery */
+
+/* #region Desktops & Large screens */
+@media screen and (max-width: 1200px) {
+    /* Desktops & Large screens */
+}
+
+/* #endregion Desktops & Large screens */
+
+/* #region Small screens & Laptops */
+@media screen and (max-width: 1024px) {
+    /* Small screens & Laptops */
+}
+
+/* #endregion Small screens & Laptops */
+
+/* #region iPads & Tablets */
+@media screen and (max-width: 768px) {
+    /* iPads & Tablets */
+}
+
+/* #endregion iPads & Tablets */
+
+/* #region Mobile */
+@media screen and (max-width: 480px) {
+    /* Mobile */
+}
+
+/* #endregion Mobile */
+
+/* #endregion MediaQuery */
+
+
+/* #region Header */
+
+/* #endregion Header */
+
+
+/* #region Main */
+
+/* #endregion Main */
+
+
+/* #region Footer */
+
+/* #endregion Footer */
