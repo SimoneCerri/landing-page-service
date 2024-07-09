@@ -22,13 +22,20 @@
 - Scrivere un `readme.md`
 - Utilizzo dei `Dev Tools`
     - OpenGraph : (https://opengraph.dev/)
-    - 
+    - GoogleFonts : (https://fonts.google.com/)
+    - Normalize.css : (https://necolas.github.io/normalize.css/)
+    - GitHub Pages : (https://pages.github.com/)
+    - Swiper : (https://swiperjs.com/)
+    - MailChimp : (https://mailchimp.com/)
 
 ## _Steps:_ ##
 
 - [x]  Init with scaffolding
 - [x]  Color palette -> root
+    - Add more colors from brief
 - [x]  Fonts
-- [ ]  Responsive layout
+    - Swap font to 'Lato' from Google
 - [ ]  Fill with imgs & icons
+- [ ]  Responsive layout
+- [ ]  Hover-things
 - [ ]  ***_Accessability_***

@@ -13,13 +13,9 @@
 
 /* #region Debug */
 
-.debug h1 {
-    background-color: var(--primary);
-}
 
-div {
+.debug div {
     border: 1px solid black;
-    padding: 0.5em;
 }
 
 /* #endregion Debug */
@@ -38,6 +34,14 @@ div {
     --primary: #EC6C5B;
     --secondary: #4CC083;
     --light: #E2F3F0;
+    --peach: #ffedd2;
+    --red: #ffe4c9;
+    --green: ;
+    --purple: ;
+}
+
+img {
+    width: 100%;
 }
 
 /* #endregion Common */
@@ -55,6 +59,16 @@ div {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+.my_text_primary {
+    color: var(--primary);
+}
+
+.my_pill {
+    color: white !important;
+    background-color: var(--secondary) !important;
+    border-radius: 30px !important;
 }
 
 /* #endregion Utilities */
@@ -95,10 +109,50 @@ div {
 
 /* #region Header */
 
+.head_banner {
+    background-color: var(--primary);
+}
+
 /* #endregion Header */
 
 
 /* #region Main */
+#learn_something {
+
+    .my_billboard_bg {
+        background: url('../img/billboard-bg.png');
+
+        .my_btn {
+            position: absolute;
+            top: -4px;
+            left: 85%;
+
+            .my_search {
+                background-color: var(--secondary);
+                padding: 0.5em 0.8em;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .card {
+        box-shadow: -1px 1px 14px 6px rgba(0, 0, 0, 0.31);
+
+        h3 {
+            color: var(--primary);
+        }
+    }
+}
+
+#about_us {
+    img {
+        border-radius: 50%;
+    }
+
+    span {
+        color: var(--primary);
+    }
+}
 
 /* #endregion Main */
 
