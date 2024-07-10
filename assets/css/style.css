@@ -35,13 +35,17 @@
     --secondary: #4CC083;
     --light: #E2F3F0;
     --peach: #ffedd2;
-    --red: #ffe4c9;
-    --green: ;
-    --purple: ;
+    --red: #facab7b7;
+    --green: rgba(91, 212, 182, 0.377);
+    --purple: rgba(190, 151, 253, 0.5);
 }
 
 img {
     width: 100%;
+}
+
+h1 {
+    font-size: 50px !important;
 }
 
 /* #endregion Common */
@@ -65,10 +69,30 @@ img {
     color: var(--primary);
 }
 
+.my_text_secondary {
+    color: var(--secondary);
+}
+
 .my_pill {
     color: white !important;
     background-color: var(--secondary) !important;
     border-radius: 30px !important;
+}
+
+.bg_1 {
+    background-color: var(--green) !important;
+}
+
+.bg_2 {
+    background-color: var(--peach) !important;
+}
+
+.bg_3 {
+    background-color: var(--red) !important;
+}
+
+.bg_4 {
+    background-color: var(--purple) !important;
 }
 
 /* #endregion Utilities */
@@ -151,6 +175,18 @@ img {
 
     span {
         color: var(--primary);
+    }
+}
+
+#explore {
+    img {
+        border-radius: 1.5rem !important;
+    }
+}
+
+#teachers {
+    img {
+        border-radius: 1.5rem !important;
     }
 }
 
