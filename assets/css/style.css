@@ -99,11 +99,6 @@ h1 {
     background-color: var(--purple) !important;
 }
 
-.my_container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .big {
     font-size: 35px;
 }
@@ -117,6 +112,11 @@ h1 {
 @media screen and (min-width: 1200px) {
 
     /* Desktops & Large screens */
+    .my_container {
+        width: 100%;
+        max-width: 1700px;
+        margin: 0 auto;
+    }
 
     header {
         .my_try {
@@ -149,8 +149,23 @@ h1 {
         }
     }
 
-    .my_billboard_bg {
-        margin-bottom: -150px;
+    #learn_something {
+        .my_billboard_bg {
+            margin-bottom: -150px;
+
+            h1 {
+                font-size: 100px !important;
+            }
+        }
+
+        .card {
+            aspect-ratio: 2/1;
+            font-weight: bold;
+
+            h3 {
+                font-size: 50px;
+            }
+        }
     }
 
     .big {
@@ -163,9 +178,20 @@ h1 {
         }
     }
 
+    #popular_categories {
+        .card {
+            padding: 2rem 0 !important;
+
+            span:first-child {
+                font-size: 20px !important;
+                font-weight: bold;
+            }
+        }
+    }
+
     footer {
         img {
-            width: 50%;
+            width: 33%;
         }
     }
 }
