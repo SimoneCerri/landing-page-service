@@ -35,7 +35,11 @@
     - Add more colors from brief
 - [x]  Fonts
     - Swap font to 'Lato' from Google
-- [ ]  Fill with imgs & icons
-- [ ]  Responsive layout
+- [x]  Fill with imgs & icons
+- [x]  Responsive layout
+    - Fix the nav
+    - Change 'container-xxl' into 'my_container'
+    - Fix the width-scroll problem
+    - Nav-active -> --secondary
 - [ ]  Hover-things
 - [ ]  ***_Accessability_***

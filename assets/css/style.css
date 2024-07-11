@@ -30,6 +30,10 @@
     font-family: "Lato", sans-serif;
 }
 
+/* body {
+    max-width: 100vw;
+} */
+
 :root {
     --primary: #EC6C5B;
     --secondary: #4CC083;
@@ -114,12 +118,48 @@ h1 {
 
     /* Desktops & Large screens */
 
+    header {
+        .my_try {
+            flex-wrap: nowrap;
+
+            .my_1 {
+                width: calc((100% / 12) * 4) !important;
+
+                img {
+                    width: 33%;
+                }
+            }
+
+            .my_2 {
+                width: calc((100% / 12) * 4) !important;
+                display: flex;
+                justify-content: center;
+
+                ul {
+                    margin: 0 !important;
+                }
+            }
+
+            .my_3 {
+                width: calc((100% / 12) * 4) !important;
+                display: flex;
+                justify-content: end;
+            }
+        }
+    }
+
     .my_billboard_bg {
         margin-bottom: -150px;
     }
 
     .big {
         font-size: 50px;
+    }
+
+    #learn_something {
+        input {
+            width: 92%;
+        }
     }
 
     footer {
@@ -161,6 +201,26 @@ h1 {
     background-color: var(--primary);
 }
 
+header {
+    .my_try {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .my_1 {
+            width: 50%;
+        }
+
+        .my_2 {
+            width: 20%;
+            align-self: center;
+        }
+
+        .my_3 {
+            width: 100%;
+        }
+    }
+}
+
 /* #endregion Header */
 
 
@@ -172,8 +232,8 @@ h1 {
 
         .my_btn {
             position: absolute;
-            top: -4px;
-            left: 85%;
+            top: -5px;
+            left: 86%;
 
             .my_search {
                 background-color: var(--secondary);
