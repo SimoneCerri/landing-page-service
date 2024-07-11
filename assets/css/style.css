@@ -100,14 +100,33 @@ h1 {
     margin: 0 auto;
 }
 
+.big {
+    font-size: 35px;
+}
+
 /* #endregion Utilities */
 
 
 /* #region MediaQuery */
 
 /* #region Desktops & Large screens */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+
     /* Desktops & Large screens */
+
+    .my_billboard_bg {
+        margin-bottom: -150px;
+    }
+
+    .big {
+        font-size: 50px;
+    }
+
+    footer {
+        img {
+            width: 50%;
+        }
+    }
 }
 
 /* #endregion Desktops & Large screens */
@@ -193,6 +212,10 @@ h1 {
     img {
         border-radius: 1.5rem !important;
     }
+}
+
+#register {
+    background: url(../img/billboard-bg.png);
 }
 
 /* #endregion Main */
