@@ -286,6 +286,20 @@ header {
             color: var(--primary);
         }
     }
+
+    .card:hover {
+        background-color: var(--secondary) !important;
+        background-image: url(../img/joker.png);
+        background-position-y: 20%;
+        background-position-x: -100px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        color: white;
+
+        h3 {
+            color: white;
+        }
+    }
 }
 
 #about_us {
@@ -298,6 +312,19 @@ header {
     }
 }
 
+#popular_categories {
+    .card:hover {
+        background-color: var(--primary) !important;
+        background-image: url(../img/billboard-img.png);
+        background-position-y: 20%;
+
+        i,
+        span {
+            color: white;
+        }
+    }
+}
+
 #explore {
     img {
         border-radius: 1.5rem !important;
@@ -307,6 +334,31 @@ header {
 #teachers {
     img {
         border-radius: 1.5rem !important;
+    }
+
+    .teacher_socials {
+        display: none;
+        position: absolute;
+    }
+
+    .card:hover {
+        .teacher_socials {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            margin-top: 1em;
+            margin-left: 1em;
+            padding: 0.5em;
+            border-radius: 0.5em 0 0 0;
+            background-color: var(--secondary);
+            color: white;
+
+            a {
+                text-decoration: none;
+                list-style: none;
+                color: white;
+            }
+        }
     }
 }
 
