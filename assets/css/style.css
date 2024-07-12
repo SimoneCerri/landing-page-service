@@ -84,7 +84,7 @@ h1 {
 }
 
 .bg_1 {
-    background-color: var(--green) !important;
+    background-color: var(--light) !important;
 }
 
 .bg_2 {
@@ -328,6 +328,20 @@ header {
 #explore {
     img {
         border-radius: 1.5rem !important;
+    }
+}
+
+#reviews {
+    background-color: var(--light);
+
+    .swiper {
+        /* width: 600px;
+        height: 300px; */
+
+        img {
+            width: 20%;
+            border-radius: 50%;
+        }
     }
 }
 
