@@ -186,6 +186,10 @@ h1 {
                 font-size: 20px !important;
                 font-weight: bold;
             }
+
+            i {
+                padding-left: 1em !important;
+            }
         }
     }
 
