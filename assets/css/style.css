@@ -138,6 +138,25 @@ h1 {
                 ul {
                     margin: 0 !important;
                 }
+
+                .navbar-collapse {
+                    position: static !important;
+                    top: auto !important;
+                    left: auto !important;
+                    right: auto !important;
+                    background-color: transparent !important;
+                    box-shadow: none !important;
+                    width: auto !important;
+                    min-width: auto !important;
+                    border-radius: 0 !important;
+                }
+
+                .navbar-nav .nav-link {
+                    padding: 8px 15px !important;
+                    white-space: normal !important;
+                    display: inline-block !important;
+                    box-sizing: content-box !important;
+                }
             }
 
             .my_3 {
@@ -375,6 +394,15 @@ header {
         display: none;
         position: absolute;
     }
+
+    /* .row {
+        --bs-gutter-x: 0.5em;
+    }
+
+    .card-body {
+        padding-bottom: 1em;
+        white-space: nowrap;
+    } */
 
     .card:hover {
         .teacher_socials {
