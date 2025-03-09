@@ -248,6 +248,27 @@ header {
             .my_active {
                 color: var(--secondary);
             }
+
+            .navbar-collapse {
+                position: absolute;
+                top: 90%;
+                left: -20%;
+                right: 0;
+                background-color: white;
+                z-index: 1000;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                min-height: auto;
+                min-width: 100px;
+                border-radius: 10px;
+            }
+
+            .navbar-nav .nav-link {
+                padding: 10px 10px;
+                white-space: nowrap;
+                display: block;
+                box-sizing: border-box;
+            }
         }
 
         .my_3 {

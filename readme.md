@@ -41,5 +41,5 @@
     - Change 'container-xxl' into 'my_container'
     - Fix the width-scroll problem
     - Nav-active -> --secondary
-- [ ]  Hover-things
+- [x]  Hover-things
 - [ ]  ***_Accessability_***
