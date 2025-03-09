@@ -42,4 +42,4 @@
     - Fix the width-scroll problem
     - Nav-active -> --secondary
 - [x]  Hover-things
-- [ ]  ***_Accessability_***
+- [x]  ***_Accessability_***
